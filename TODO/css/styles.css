@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(239, 248, 248);
+}
+
+header h1 {
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration : underline;
+}
+
+#takingInput {
+    padding : 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap : 7px
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    width : 200px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#submitTask {
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:crimson;
+    color : white;
+    border : none; 
+    cursor : pointer;
+}
+
+#submitTask:hover {
+    transition:ease-in 0.3s;
+    background-color: rgb(234, 118, 141);
+}
+
+#tasks {
+    padding : 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 10px;
+    justify-content: space-around;
+}
+
+#newTask {
+    background-color: rgb(57, 65, 65);
+    padding : 10px;
+    border-radius : 10px;
+    width : 430px;
+}
+
+#dataHolder {
+    color : whitesmoke;
+    overflow: auto;
+    text-wrap: calc(100);
+}
+
+#timeHolder{
+    height: 40px;
+    display: flex;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: rgb(188, 167, 167);
+    justify-content: space-between;
+    align-items: center;
+    border-radius : 40px;
+}
+
+#timeHolder img {
+    height : 30px;
+    border-radius : 20px;
+    cursor : pointer;
+}
+
+#doneBtn {
+    border-radius: 10px;
+    padding:6px;
+}
