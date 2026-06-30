@@ -70,4 +70,3 @@ const addData = (data, newTask) => {
 
     newTask.appendChild(dataHolder);
 }
-
